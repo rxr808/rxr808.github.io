@@ -1,0 +1,54 @@
+body {
+  background: #CA9D92;
+}
+h1 {
+  border: 1px dashed brown;
+}
+li {
+  color:#9F2D00;
+}
+.rachel {
+  color: #5E4E4E;
+}
+.secondarycolor {
+  color: brown;
+}
+
+#creativeadvertisingstudent {
+  text-decoration: underline;
+}
+
+a {  color: #3B3F53;
+  text-decoration: overline;}
+
+  a: hover {
+    color: #3B3F53
+    text-decoration: overline;
+}
+
+p {
+  font-family:"playfair display";
+  font-variant: small-caps;
+  font-size: 20px;
+  color: #3B3F53;
+}
+
+#professionalexperience {
+  color: #3B3F53;
+}
+
+#professionalskills {
+  color: #3B3F53;
+}
+
+#education {
+  color: #3B3F53;
+}
+
+#adobeprogramproficienylevel {
+  color: #3B3F53;
+}
+
+.job {
+  color: #894E3E;
+}
