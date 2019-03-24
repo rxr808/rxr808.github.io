@@ -1,0 +1,4 @@
+.mainmenu {grid-template-rows: 5fr 5fr 5fr 5fr}
+.gallerymobile {grid-template-rows: 5fr 5fr}
+.article1 {grid-template-columns: 50fr 50fr}
+.article4 {grid-template-rows: 1fr 1fr 1fr}

@@ -1,0 +1,17 @@
+.mainmenu {grid-template-columns: 5fr 5fr 5fr 5fr 5fr}
+.gallerydesktop {grid-template-columns: 5fr 5fr 5fr}
+.images div {
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 5px;
+
+}
+
+
+.article3 {grid-template-columns: 1fr;}
+.article3 img {max-width: 100%;}
+.article3 div {padding: 5px;}
+.article2 { grid-template-columns: 5fr 5fr}
+.article4 {grid-template-columns: 1fr 1fr 1fr; grid-gap: 0;}
+.article4 div {padding: 1px;}
