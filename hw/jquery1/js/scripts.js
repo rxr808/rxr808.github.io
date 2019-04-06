@@ -7,15 +7,21 @@
 //executes when you first open page//
 var step = 0;
 var titles = [
-  'Prepare for take-off', // this is 0 titles[0]
-  'Put seat belt on', // this is 1 titles[1]
-  'Turn on the engines', // this is 2 titles[2]
-  'Turn the lights on', // this is title 3[3]
-  'Press go!' // this is title 4[4]
+  'Spot trends on the runway and write them down.', // this is 0 titles[0]
+  'Write down what you are looking to buy.', // this is 1 titles[1]
+  'Be on the lookout for what you wrote down.', // this is 2 titles[2]
+  'Assess quality.', // this is title 3[3]
+  'Try your items on!' // this is title 4[4]
 ];
+
 $(function(){
   $('#stepinfo, section, footer, .prev').hide();
-}); //very first load function
+ //very first load function
+
+//change css of body
+$('body').css('background-color','tan');
+$('body').css('font-size', '36px');
+});
 
 $('.start').on('click', function(){ //start function
   //do stuff when the button is clicked
@@ -40,6 +46,7 @@ $('#step'+step).hide();
 
 if(step == 5){
   $('.next').hide();
+$('#final').html('That\'s it! <strong>Start again?</strong>');
 }
 
 if(step <= 5) {
