@@ -1,0 +1,14 @@
+body { color: #FFFFFF; }
+img {
+  max-width: 100%;
+min-width: 100%;}
+.contentwrapper {
+  display: block;
+  width: 80%;
+  background: #FFFFFF33;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+#mainmenu { position: fixed; top:0; left: 0; z-index: 5000;}
+li.active { font-weight: bold; }

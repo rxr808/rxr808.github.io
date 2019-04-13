@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="pagepiling/jquery.pagepiling.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <ul id="mainmenu">
+    <li data-menuanchor="section1" class="active"><a href="#section1">First section</a></li>
+    <li data-menuanchor="section2"><a href="#section2">Second section</a></li>
+    <li data-menuanchor="section3"><a href="#section3">Third section</a></li>
+    <li data-menuanchor="section4"><a href="#section4">Fourth section</a></li>
+    <li data-menuanchor="section5"><a href="#section5">Fourth section</a></li>
+    </ul>
+
+    <div id="pagepiling">
+    	<div class="section pp-scrollable" id="section1">
+        <div class="contentwrapper">
+          <h2 class="sectiontitle">Section Title</h2>
+          <img src="https://placehold.it/600x300" alt="">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, alias, dignissimos facere sunt nesciunt recusandae illo ipsam omnis tempore aliquid possimus, impedit sed vitae in suscipit veritatis, ipsa tenetur incidunt.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, alias, dignissimos facere sunt nesciunt recusandae illo ipsam omnis tempore aliquid possimus, impedit sed vitae in suscipit veritatis, ipsa tenetur incidunt.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, alias, dignissimos facere sunt nesciunt recusandae illo ipsam omnis tempore aliquid possimus, impedit sed vitae in suscipit veritatis, ipsa tenetur incidunt.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, alias, dignissimos facere sunt nesciunt recusandae illo ipsam omnis tempore aliquid possimus, impedit sed vitae in suscipit veritatis, ipsa tenetur incidunt.</p>
+          
+        </div>
+      </div>
+    	<div class="section" id="section2">
+        <div class="contentwrapper">
+          <h2 class="sectiontitle">Section Title</h2>
+          <img src="https://placehold.it/600x300" alt="">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, alias, dignissimos facere sunt nesciunt recusandae illo ipsam omnis tempore aliquid possimus, impedit sed vitae in suscipit veritatis, ipsa tenetur incidunt.</p>
+        </div>
+      </div>
+    	<div class="section" id="section3">  <div class="contentwrapper">
+          <h2 class="sectiontitle">Section Title</h2>
+          <img src="https://placehold.it/600x300" alt="">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, alias, dignissimos facere sunt nesciunt recusandae illo ipsam omnis tempore aliquid possimus, impedit sed vitae in suscipit veritatis, ipsa tenetur incidunt.</p>
+        </div>
+      </div>
+      <div class="section" id="section4">
+        <div class="contentwrapper">
+          <h2 class="sectiontitle">Section Title</h2>
+          <img src="https://placehold.it/600x300" alt="">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, alias, dignissimos facere sunt nesciunt recusandae illo ipsam omnis tempore aliquid possimus, impedit sed vitae in suscipit veritatis, ipsa tenetur incidunt.</p>
+        </div>
+      </div>
+      <div class="section" id="section5">
+        <div class="contentwrapper">
+          <h2 class="sectiontitle">Section Title</h2>
+          <img src="https://placehold.it/600x300" alt="">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, alias, dignissimos facere sunt nesciunt recusandae illo ipsam omnis tempore aliquid possimus, impedit sed vitae in suscipit veritatis, ipsa tenetur incidunt.</p>
+        </div>
+      </div>
+    </div>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="pagepiling/jquery.pagepiling.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+  	$('#pagepiling').pagepiling({
+      sectionsColor: ['blue','#FFCC00','#CC33FF','#F1F1F1','#FF9900'],
+      menu: '#mainmenu',
+      anchors: ['section1', 'section2', 'section3', 'section4','section5'],
+    });
+  });
+</script>
+  </body>
+</html>
